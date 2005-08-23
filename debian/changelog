@@ -1,0 +1,24 @@
+mouseconfig-kanotix (0.5.3) unstable; urgency=low
+
+  * packaging overhaul.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 23 Aug 2005 17:32:34 +0200
+
+mouseconfig-kanotix (0.5-2) unstable; urgency=low
+
+  * Forked for Kanotix compatibilty.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Dec 2004 21:09:37 +0100
+
+mouseconfig (0.5-2) unstable; urgency=low
+
+  * Added spanish messages by Sergio Gonzalez <sergio.gonzalez@hispalinux.es>, Luis Llorente <luis.llorente@hispalinux.es>
+
+ -- Klaus Knopper <knoppix@knopper.net>  Fri,  6 Dec 2002 19:21:01 +0100
+
+mouseconfig (0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Klaus Knopper <knoppix@knopper.net>  Thu, 14 Jun 2001 09:17:09 +0200
+
