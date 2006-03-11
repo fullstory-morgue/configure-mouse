@@ -1,8 +1,15 @@
+mouseconfig-kanotix (0.5.4) unstable; urgency=low
+
+  * remove cdbs auto-update feature.
+  * bump compat level to 5.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 11 Mar 2006 23:53:05 +0100
+
 mouseconfig-kanotix (0.5.3) unstable; urgency=low
 
   * packaging overhaul.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 23 Aug 2005 17:32:34 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 11 Mar 2006 23:52:58 +0100
 
 mouseconfig-kanotix (0.5-2) unstable; urgency=low
 
