@@ -1,8 +1,8 @@
-mouseconfig-kanotix (0.5.5) UNRELEASED; urgency=low
+mouseconfig-kanotix (0.5.5) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * depend on hwsetup-ng, not hwsetup-kanotix.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 11 Mar 2006 23:54:23 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 13 Mar 2006 11:19:26 +0100
 
 mouseconfig-kanotix (0.5.4) unstable; urgency=low
 

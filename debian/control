@@ -7,7 +7,7 @@ Standards-Version: 3.6.2
 
 Package: mouseconfig-kanotix
 Architecture: all
-Depends: dialog, xdialog, hwsetup-kanotix
+Depends: dialog, xdialog, hwsetup-ng
 Recommends: gpm, xbase-clients
 Provides: mouseconfig
 Replaces: mouseconfig
