@@ -25,9 +25,9 @@ trap bailout 2 15
 
 case "$LANGUAGE" in
 de) TITLE0="Wie ist Ihre Maus angeschlossen?"
-    TITLE1="Bitte wählen Sie Ihren Maustyp"; ;;
-es)  TITLE0="¿Cómo está conectado su ratón?"
-    TITLE1="Por favor, seleccione el tipo de ratón"; ;;
+    TITLE1="Bitte wÃ¤hlen Sie Ihren Maustyp"; ;;
+es)  TITLE0="Â¿CÃ³mo estÃ¡ conectado su ratÃ³n?"
+    TITLE1="Por favor, seleccione el tipo de ratÃ³n"; ;;
 *)  TITLE0="How is your mouse connected?"
     TITLE1="Please choose your mouse type"; ;;
 esac

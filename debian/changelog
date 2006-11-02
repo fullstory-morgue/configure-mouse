@@ -1,8 +1,9 @@
-mouseconfig-kanotix (0.5.6) UNRELEASED; urgency=low
+mouseconfig-kanotix (0.5.6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to utf-8.
+  * fix lintian errors.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 13 Mar 2006 11:20:44 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  2 Nov 2006 13:49:18 +0100
 
 mouseconfig-kanotix (0.5.5) unstable; urgency=low
 
