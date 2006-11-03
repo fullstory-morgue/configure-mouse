@@ -1,8 +1,12 @@
-mouseconfig-kanotix (0.5.7) UNRELEASED; urgency=low
+mouseconfig-kanotix (0.5.7) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to X_CONF.
+  * secure creation of temporary files.
+  * get rid of bogus /etc/sysconfig/i18n handling.
+  * standardize remaining /etc/sysconfig/mouse.
+  * re- indent.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  2 Nov 2006 13:50:32 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri,  3 Nov 2006 20:40:23 +0100
 
 mouseconfig-kanotix (0.5.6) unstable; urgency=low
 
