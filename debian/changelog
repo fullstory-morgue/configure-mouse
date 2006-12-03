@@ -1,10 +1,12 @@
-configure-mouse (0.5.8) UNRELEASED; urgency=low
+configure-mouse (0.5.8) unstable; urgency=low
 
-  * NOT RELEASED YET
-
+  [ Joaquim Boura ]
   * Initial version for sidux
 
- -- Joaquim Boura <x-un-i@sidux.com>  Fri,  1 Dec 2006 21:24:01 +0100
+  [ Stefan Lippers-Hollmann ]
+  * tweak debian/control.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 01:56:32 +0100
 
 mouseconfig-kanotix (0.5.7) unstable; urgency=low
 
