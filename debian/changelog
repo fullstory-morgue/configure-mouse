@@ -1,3 +1,9 @@
+configure-mouse (0.5.10) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  6 Feb 2007 23:57:44 +0100
+
 configure-mouse (0.5.9) unstable; urgency=low
 
   * add missing white space, thanks to gho.
