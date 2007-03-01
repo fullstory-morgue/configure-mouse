@@ -1,8 +1,8 @@
-configure-mouse (0.5.10) UNRELEASED; urgency=low
+configure-mouse (0.5.10) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * mouseconfig-kanotix was never in sidux or debian, don't conflict with it.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  6 Feb 2007 23:57:44 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 13:23:33 +0100
 
 configure-mouse (0.5.9) unstable; urgency=low
 

@@ -8,7 +8,6 @@ Standards-Version: 3.7.2
 Package: configure-mouse
 Architecture: all
 Depends: dialog, xdialog, hwsetup-ng
-Conflicts: mouseconfig-kanotix
 Recommends: gpm, xbase-clients
 Description: Lightweight mouse configuration tool for sidux
  small tool for configuring the mouse in live mode.
