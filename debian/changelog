@@ -1,3 +1,9 @@
+configure-mouse (0.5.12) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 May 2007 23:13:18 +0200
+
 configure-mouse (0.5.11) unstable; urgency=low
 
   * centralize output to /etc/hwsetup.
