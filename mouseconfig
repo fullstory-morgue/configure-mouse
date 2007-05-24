@@ -10,8 +10,7 @@ XDIALOG_HIGH_DIALOG_COMPAT=1
 export XDIALOG_HIGH_DIALOG_COMPAT
   
 TMP="$(mktemp -p /tmp/ mouseconfig-XXXXXXXXXX)"
-HWSETUP_MAIN="/etc/sysconfig/knoppix"
-HWSETUP_MOUSE="/etc/sysconfig/mouse"
+HWSETUP_MAIN="/etc/hwsetup"
 
 bailout()
 {
@@ -24,7 +23,7 @@ DIALOG="dialog"
 
 trap bailout 2 15
 
-[ -f "$HWSETUP_MOUSE" ] && . "$HWSETUP_MOUSE"
+[ -f "$HWSETUP_MAIN" ] && . "$HWSETUP_MAIN"
 
 case "$LANG" in
 	de*|at*|ch*)
@@ -87,13 +86,10 @@ append=""
 EOF
 
 	# X_CONF is only changed in /etc/init.d/live-autoconfig
-	echo "XMOUSETYPE=\"$XMOUSETYPE\""	>> "$HWSETUP_MOUSE"
-	echo "MOUSETYPE=\"$MOUSETYPE\""		>> "$HWSETUP_MOUSE"
-	echo "DEVICE=\"$DEVICE\""		>> "$HWSETUP_MOUSE"
 	echo "MOUSE_XMOUSETYPE=\"$XMOUSETYPE\""	>> "$HWSETUP_MAIN"
 	echo "MOUSE_MOUSETYPE=\"$XMOUSETYPE\""	>> "$HWSETUP_MAIN"
 	echo "MOUSE_DEVICE=\"$DEVICE\""		>> "$HWSETUP_MAIN"
 fi
 
-bailout 0
+bailout 
 
