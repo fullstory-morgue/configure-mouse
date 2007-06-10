@@ -1,8 +1,9 @@
-configure-mouse (0.5.12) UNRELEASED; urgency=low
+configure-mouse (0.5.12) ORPHANED; urgency=low
 
   * NOT RELEASED YET
+  * ORPHAN PACKAGE
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 May 2007 23:13:18 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 10 Jun 2007 14:29:37 +0200
 
 configure-mouse (0.5.11) unstable; urgency=low
 
